@@ -28,7 +28,7 @@ a {
 
 #header {
   height: auto;
-  background-image: url("../docs/assets/hellenicescape18.webp");
+  background-image: url(../docs/assets/hellenicescape18.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
