@@ -28,7 +28,7 @@ a {
 
 #header {
   height: auto;
-  background-image: url(https://github.com/FraDV3/Hellenic_Escape/blob/main/Resources/style.css#:~:text=menu%2Dicon.svg-,hellenicescape18,-.webp);
+  background-image: url(/docs/assets/hellenicescape18.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
