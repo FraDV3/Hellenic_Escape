@@ -111,27 +111,27 @@ p {
 }
 
 .item1 {
-  background-image: url(/docs/assets/hellenicescape48.webp);
+  background-image: url(../docs/assets/hellenicescape48.webp);
 }
 
 .item3 {
-  background-image: url(/docs/assets/hellenicescape37.webp);
+  background-image: url(../docs/assets/hellenicescape37.webp);
 }
 
 .item4 {
-  background-image: url(/docs/assets/hellenicescape21.webp);
+  background-image: url(../docs/assets/hellenicescape21.webp);
 }
 
 .item6 {
-  background-image: url(/docs/assets/hellenicescape38.webp);
+  background-image: url(../docs/assets/hellenicescape38.webp);
 }
 
 .item7 {
-  background-image: url(/docs/assets/hellenicescape29.webp);
+  background-image: url(../docs/assets/hellenicescape29.webp);
 }
 
 .item9 {
-  background-image: url(/docs/assets/hellenicescape23.webp);
+  background-image: url(../docs/assets/hellenicescape23.webp);
 }
 
 /* Destinations */
