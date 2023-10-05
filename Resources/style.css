@@ -1,0 +1,470 @@
+@font-face {
+  font-family: "montserrat" "lexend peta" "bellefair";
+  src: url("https://fonts.googleapis.com/css2?family=Bellefair&family=Lexend+Peta:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400&display=swap") format(woff);
+}
+
+/* General Settings */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* Header */
+
+#header {
+  height: auto;
+  background-image: url(/docs/assets/hellenicescape18.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20vh;
+}
+
+.navbar {
+  width: 100%;
+  padding-top: 50px;
+  font-family: montserrat;
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px #3a3a3a;
+  align-content: center;
+}
+
+#logo {
+  width: 20%;
+}
+
+.hero {
+  font-family: bellefair;
+  font-size: 4vw;
+  text-shadow: 1px 1px 3px #3a3a3a;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+#hsmenu {
+  display: none;
+}
+
+/* Main */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-size: 3vw;
+  font-family: bellefair;
+  color: #324B9B;
+  text-align: center;
+}
+
+p {
+  font-size: 1.3vw;
+  font-family: montserrat;
+  color: #3a3a3a;
+  text-align: center;
+  line-height: 2em;
+}
+
+.group {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  height: 100%;
+  /* for screen smaller than 768px activate flex-wrap */
+}
+
+.item {
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid white;
+  /* for screen smaller than 992px remove flex */
+  flex: 1 1 33.33333%;
+}
+
+.item1 {
+  background-image: url(/docs/assets/hellenicescape48.webp);
+}
+
+.item3 {
+  background-image: url(/docs/assets/hellenicescape37.webp);
+}
+
+.item4 {
+  background-image: url(/docs/assets/hellenicescape21.webp);
+}
+
+.item6 {
+  background-image: url(/docs/assets/hellenicescape38.webp);
+}
+
+.item7 {
+  background-image: url(/docs/assets/hellenicescape29.webp);
+}
+
+.item9 {
+  background-image: url(/docs/assets/hellenicescape23.webp);
+}
+
+/* Destinations */
+
+#destinations{
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+.predest {
+  height: 200px;
+  margin-bottom: 0;
+  background-image: linear-gradient(white,
+   #f3f3f3);
+}
+
+.postdest {
+  margin-top: -10px;
+  height: 200px;
+  background-image: linear-gradient(
+   #f3f3f3, white);
+}
+
+.map {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.ceo {
+  width: 50vw;
+  margin-top: 15px;
+  float: left;
+  border: 10px solid white;
+  border-bottom: 0;
+}
+
+.story {
+  margin-top: 100px;
+  font-size: 1.5vw;
+  border: 15px solid white;
+  text-align: justify;
+  line-height: 2.5em;
+}
+
+/* Contacts */
+
+#contact_us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  padding: 40px;
+  font-family: "montserrat";
+  color: #006bbd;
+  background-color: #ede8e4;
+  background-image: linear-gradient(white,#ede8e4);
+  background-size: cover;
+  background-position: center;
+  margin-top: 200px;
+}
+
+.contacts {
+  margin-right: auto;
+  color: #83ceec;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 10px;
+}
+
+.phone > a,
+.mail > a {
+  color: #83ceec;
+  display: inline;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left: -15px;
+  margin-right: -10px;
+}
+
+form {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 25px;
+}
+
+.contus {
+  margin-top: 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 2px solid #fffff0;
+  border-radius: 20px;
+  color: #3a3a3a;
+  background: transparent;
+  font-size: 15px;
+  font-family: "montserrat";
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #83ceec;
+  cursor: text;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input:focus~label,
+input:valid~label, 
+textarea:focus~label,
+textarea:valid~label {
+  top: -35px;
+  font-size: 14px;
+}
+
+button {
+  width: 105%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  color: #fffff0;
+  font-family: "montserrat";
+  font-weight: 600;
+  background-color: #83ceec;
+  box-shadow: 2px 2px 5px #3a3a3a70;
+}
+
+button:hover {
+  background-color: #006bbd;
+  box-shadow: 2px 2px 5px #3a3a3a70;
+}
+
+button:active {
+  background-color: #006bbd;
+  box-shadow: inset 3px 3px 5px #3a3a3a;
+}
+
+/* Copyright */
+
+.copyright {
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 1.5vw;
+  background-color: #ede8e4;
+  color: #83ceec;
+  padding: 10px;
+}
+
+/* @media */
+
+@media screen and (max-width: 840px) {
+  #header {
+    height: 100%;
+  }
+
+  .navbar {
+    font-size: 2vw;
+  }
+
+  #logo {
+    width: 35vw;
+  }
+
+  .group {
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 2vw;
+  }
+
+  .item2,
+  .item5,
+  .item8 {
+    height: 50px;
+    margin-bottom: 10vw;
+  }
+
+  .item3,
+  .item6,
+  .item9 {
+    order: -1;
+  }
+
+  .title {
+    width: 100%;
+    margin-top: 20vw;
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 2.5vw;
+  }
+
+  .story {
+    font-size: 2.5vw;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  button {
+    width: 107%;
+  }
+
+  .copyright {
+    font-size: 2vw;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  #header {
+    height: 896px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  #logo {
+    margin-top: 100px;
+    width: 70%;
+    order: -1;
+  }
+
+  #hsmenu {
+    display: flex;
+  }
+
+  .hero {
+    font-size: 6vw;
+    margin-bottom: 100px;
+  }
+
+  #main {
+    flex-direction: column;
+  }
+
+  .item {
+    flex: 1 1 100%;
+  }
+
+
+  .title {
+    font-size: 7vw;
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 2lvw;
+  }
+
+  .item2,
+  .item5,
+  .item8 {
+    height: auto;
+    order: -1;
+    aspect-ratio: 2/1;
+  }
+
+  .item3,
+  .item6,
+  .item7 {
+    display: none;
+
+  }
+  
+  p {
+    font-size: 4vw;
+  }
+  
+  .predest {
+    height: 300px;
+  }
+  
+  .story {
+    font-size: 3vw;
+  }
+
+  #contact_us {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .contacts {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .social {
+    margin-top: 100px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .form {
+    margin-top: 100px;
+    margin-left: -10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    width: 105%;
+  }
+
+  .copyright {
+    font-size: 2.5vw;
+  }
+
+}
